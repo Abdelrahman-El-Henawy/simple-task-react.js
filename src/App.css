@@ -1,0 +1,178 @@
+/* home component */
+.picture{
+  width: 400px;
+  height: 280px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
+.divColor{
+  background-color: #1ABC9C;
+  height: 83vh;
+}
+.text{
+  margin-bottom: 40px;
+}
+.textHome1{
+  font-size: 38px;
+  font-weight: 700;
+}
+.textHome2{
+  margin-bottom: 0;
+}
+.text span::before{
+  content:"";
+  position: absolute;
+  width: 90px;
+  height: 3px;
+  left: 65px;
+  bottom: 8px;
+  background-color: #fff;
+}
+.text span::after{
+  content:"";
+  position: absolute;
+  width: 90px;
+  height: 3px;
+  right: 65px;
+  bottom: 8px;
+  background-color: #fff;
+}
+
+/* home component */
+/* about component */
+.divColor{
+  background-color: #1ABC9C;
+  height: 83vh;
+}
+/* about component */
+/* portfolio component */
+.portfolio{
+  width: 80% !important;
+}
+.textHome1{
+  font-size: 38px;
+  font-weight: 700;
+}
+.textHome2{
+  margin-bottom: 0;
+}
+.textPort span::before{
+  content:"";
+  position: absolute;
+  width: 90px;
+  height: 3px;
+  left: 44%;
+  transform: translateX(-50%);
+  bottom: 8px;
+  background-color: #000;
+}
+.textPort span::after{
+  content:"";
+  position: absolute;
+  width: 90px;
+  height: 3px;
+  right: 37%;
+  transform: translateX(-50%);
+  bottom: 8px;
+  background-color: #000;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.4s all ease-in-out;
+}
+.overlay:hover{
+  opacity: 1;
+  background-color: #1aba9fa5;
+}
+
+/* portfolio component */
+/* layout component */
+footer{
+  background-color: #2C3E50;
+  color: #fff;
+}
+.socials span{
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.afterFooter{
+  background-color: #1A252F;
+}
+/* layout component */
+
+/* navBar component */
+.navbar{
+  background-color: #2C3E50;
+  z-index: 1;
+}
+.textLogo{
+  font-size: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 20px;
+  height: 90px;
+}
+.nav-link{
+  border-radius: 10px;
+}
+.nav-link:hover{
+  background-color: #1ABC9C !important;
+  border-radius: 10px;
+}
+.nav-link:focus{
+  background-color: #1ABC9C !important;
+  border-radius: 10px;
+}
+/* navBar component */
+/* images component */
+.picture{
+  text-align: center;
+}
+/* images component */
+
+/* contact component */
+.textHome1{
+  color: #2C3E50;
+}
+.textHome2{
+  margin-bottom: 0;
+}
+.text span::before{
+  left: 42%;
+  background-color: #2C3E50;
+}
+.text span::after{
+  right: 42%;
+  background-color: #2C3E50;
+}
+.input{
+  border: 0;
+  border-bottom: 1px solid rgb(218, 215, 215);
+  outline: 0;
+}
+label{
+  left: 8px;
+  bottom: 16px;
+  opacity: 0;
+  color: #1ABC9C;
+
+}
+.btn{
+  background-color: #1ABC9C !important;
+  color: #fff !important;
+
+}
+/* contact component */
